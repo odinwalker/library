@@ -104,10 +104,6 @@ const defaultBook1 = new Book("The Hobbit", "J.R.R. Tolkien", "295");
 const defaultBook2 = new Book("Atomic Habits", "James Clear", "320");
 const defaultBook3 = new Book("1984", "George Orwell", "328");
 
-// 手动设置一下第一本书为“已读”
-defaultBook1.isRead = true;
-
-// 推入数组并触发渲染
 myLibrary.push(defaultBook1, defaultBook2, defaultBook3);
 
 reader()
