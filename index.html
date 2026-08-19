@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" />
+      </svg>
+      <h1>Libraries</h1>
+    </div>
+    <p>A reader lives a thousand lives before he dies . . . The man who never reads lives only one." — George R.R.
+      Martin</p>
+  </header>
+
+  <main>
+    <div class="book_container"></div>
+    <aside class="sidebar">
+      <div class="add_book">
+        <button class="addBtn">Add Book</button>
+        <form action="">
+          <div class="input_title">
+            <label for="title">Title:</label>
+            <input type="text" id="title">
+          </div>
+          <div class="input_author">
+            <label for="author">Author:</label>
+            <input type="text" id="author">
+          </div>
+          <div class="input_pages">
+            <label for="pages">Pages:</label>
+            <input type="text" id="page">
+          </div>
+        </form>
+      </div>
+      <div class="library_infor"></div>
+    </aside>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
